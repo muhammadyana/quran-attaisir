@@ -1,5 +1,6 @@
 
 
+
 # README
 
 ***Require ruby 2.4.1 and Rails 5.1.6***
@@ -31,7 +32,7 @@ will return surah Al-Fatihah,  and etch. Just change number of surah
 ``` ruby
 ap Quran.get_random_ayah_with_number(surah)
 ```
-
+``` ruby
     [
       [0] {
           :name_of_surah => "سورة الفاتحة"
@@ -65,3 +66,4 @@ ap Quran.get_random_ayah_with_number(surah)
           :numberInSurah => 7
       }
     ]
+```
